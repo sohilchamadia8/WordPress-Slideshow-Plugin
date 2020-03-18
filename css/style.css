@@ -1,0 +1,166 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.cstm_container{
+    margin-top: 20px;
+}
+
+.cstm_loader{
+    display: none;
+}
+
+.cstm_short_cont {
+    padding: 6px 0px 12px 15px;
+        font-weight: 600;
+    font-style: italic;
+}
+
+.btn-primary[disabled]{
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.cstm_img_row img {
+    max-width: 200px;
+    height: 150px;
+    max-height: 200px;
+}
+.cstm_img_row .btnRemove{
+	
+	margin-top: 5px;
+   width:100px;
+}
+
+.col-md-6.appendedImg {
+    display: inline-block;
+    width: 20%;
+    float: none;
+   
+    margin-top: 30px;
+}
+
+.thumbnail1,
+.thumbnail1 img{
+    width: 200px;
+    max-width: 200px;
+    padding-top: 0;
+    border:none !important;
+    margin-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    opacity: 1 !important;
+    right: 0px;
+    background: red !important;
+    border-radius: 50%;
+    color:#fff !important;
+    width: 20px;
+}
+#gallery_image .col-md-3.col-sm-2{
+
+    width:18% !important;    
+}
+
+#file_name{
+    margin-top: 12px;
+    visibility: hidden;
+}
+
+.file_icon{
+    position: inherit;
+}
+
+.cont_file_icon{
+    font-size: 9px;
+
+}
+
+[data-apply="confirmation"],[data-dismiss="confirmation"] {
+    margin: 2px;
+     width: 84px;
+}
+
+.popover.right>.arrow {
+     left: 24px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+#gallery_image .col-md-3.col-sm-2 {
+    width: 21% !important;
+}
+
+
+.col-md-6.appendedImg {
+    display: inline-block;
+    width: 20%;
+    float: none;
+    /* margin-top: 30px; */
+    margin: 22px;
+} 
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+#gallery_image .col-md-3.col-sm-2 {
+    width: 28% !important;
+} 
+
+.col-md-6.appendedImg {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+}
+
+}
+
+
+@media only screen and (max-width: 520px) {
+#gallery_image .col-md-3.col-sm-2 {
+    width: 64% !important;
+}
+
+div#gallery_image {
+    margin-left: 42px;
+}
+
+
+.col-md-6.appendedImg {
+    padding-bottom: 18px;
+    display: inline-block;
+    width: 100%;
+}
+ 
+#wpbody {
+    overflow-x: hidden;
+}
+
+}
+
+
+@media only screen and (max-width: 375px) {
+#gallery_image .col-md-3.col-sm-2 {
+    width: 72% !important;
+}
+
+
+  
+}
+
+
+@media only screen and (max-width: 320px) {
+#gallery_image .col-md-3.col-sm-2 {
+    width: 74% !important;
+}
+
+div#gallery_image {
+    margin-left: 6px;
+}
+  
+}

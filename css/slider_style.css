@@ -1,0 +1,20 @@
+.hVCarousel .hVCarousel-item>img {
+    height: 600px;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 520px) {
+.hVCarousel .hVCarousel-item>img {
+    height: 250px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+ 
+ .hVCarousel .hVCarousel-item>img {
+    height: 220px;
+}
+}
+  
+}

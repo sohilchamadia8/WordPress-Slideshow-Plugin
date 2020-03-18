@@ -1,0 +1,247 @@
+.hVCarousel {
+  position: relative;
+  overflow: hidden
+}
+
+.hVCarousel-inner {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px
+}
+
+.hVCarousel .hVCarousel-item {
+  position: relative;
+  margin: 0;
+  width: 100%
+}
+
+.hVCarousel .hVCarousel-item>img {
+  width: 100%
+}
+
+.hVCarousel .hVCarousel-item .cr-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-left: 0!important;
+  margin-right: 0!important
+}
+
+.hVCarousel [class*="-carousel-button"] {
+  display: inline-block;
+  width: 40px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  top: calc(50% - 40px);
+  opacity: 0;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all
+}
+
+.hVCarousel:hover [class*="-carousel-button"] {
+  opacity: 1
+}
+
+.hVCarousel .prev-carousel-button {
+  left: 10px
+}
+
+.hVCarousel .next-carousel-button {
+  right: 10px
+}
+
+.hVCarousel .dots-row {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center
+}
+
+.hVCarousel .dots-row .dot-item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  margin: 0 2px;
+  cursor: pointer
+}
+
+.hVCarousel .dots-row .dot-item.active {
+  background: #000;
+  pointer-events: none
+}
+
+.hVCarousel-slides.hVfade .hVCarousel-item {
+  opacity: 0;
+  transition: 1s all
+}
+
+.hVCarousel-slides.hVfade .hVCarousel-item.active {
+  opacity: 1
+}
+
+.hVCarousel-slides.hVslide {
+  transition: .5s all;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all
+}
+
+.hVCarousel.hasThumbnail-right {
+  padding-right: 110px
+}
+
+.hVCarousel.hasThumbnail-top {
+  padding-top: 110px
+}
+
+.hVCarousel.hasThumbnail-bottom {
+  padding-bottom: 110px
+}
+
+.hVCarousel.hasThumbnail-left {
+  padding-left: 110px
+}
+
+.hVCarousel.hasThumbnail-left .thumbnail-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%
+}
+
+.hVCarousel.hasThumbnail-right .thumbnail-row {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  padding: 5px
+}
+
+.hVCarousel.hasThumbnail-top .thumbnail-row {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100px
+}
+
+.hVCarousel.hasThumbnail-bottom .thumbnail-row {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100px
+}
+
+.hVCarousel[class*=hasThumbnail] .thumbnail-row .thumb-item {
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px
+}
+
+.hVCarousel[class*=hasThumbnail] .thumbnail-row .thumb-item.active {
+  pointer-events: none
+}
+
+.hVCarousel[class*=hasThumbnail] .thumbnail-row .thumb-item.active img {
+  box-shadow: 0 0 3px 1px #8a8a8a
+}
+
+.hVCarousel.hasThumbnail-left .thumbnail-row .thumb-item,
+.hVCarousel.hasThumbnail-left .thumbnail-row .thumb-item img,
+.hVCarousel.hasThumbnail-right .thumbnail-row .thumb-item,
+.hVCarousel.hasThumbnail-right .thumbnail-row .thumb-item img {
+  width: 100%
+}
+
+.hVCarousel.hasThumbnail-bottom .thumbnail-row .thumb-item,
+.hVCarousel.hasThumbnail-bottom .thumbnail-row .thumb-item img,
+.hVCarousel.hasThumbnail-top .thumbnail-row .thumb-item,
+.hVCarousel.hasThumbnail-top .thumbnail-row .thumb-item img {
+  height: 100%
+}
+
+.hVCarousel-item .zoom_section {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 0;
+  background: rgba(255, 255, 255, .8);
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 29px;
+  border-radius: 50%;
+  cursor: pointer
+}
+
+.hVmodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, .8);
+  display: none;
+  z-index: 9999
+}
+
+.hVmodal.show {
+  display: block
+}
+
+.hVmodal .hVmodal-content {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0 15px
+}
+
+.hVmodal .hVmodal-content img {
+  max-width: 100%
+}
+
+.hVmodal .hVmodal-body {
+  position: relative
+}
+
+.hVmodal .cr-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin-left: 0!important;
+  margin-right: 0!important
+}
+
+.hVmodal-footer {
+  padding: 10px 0;
+  position: relative
+}
+
+.hVmodal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
