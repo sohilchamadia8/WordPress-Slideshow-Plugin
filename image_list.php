@@ -2,7 +2,6 @@
     <h2>Image Gallery</h2>
     <div class="row cstm_short_cont">
         <span>Note :
-
             <p>1) Use this shortcode <code>[myslideshow]</code> to display slider.</p>
             <p>2) User can also drag images to change the order of it.</p>
         </span>
