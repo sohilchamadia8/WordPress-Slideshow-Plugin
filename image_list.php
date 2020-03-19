@@ -21,6 +21,7 @@
                                         aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
+                                <i class="fa fa-spinner fa-spin cstm_spin_loader" aria-hidden="true"></i>
                                 <img class="img-thumbnail" data-src="<?= $value ?>"
                                      src="<?= plugin_dir_url(__FILE__) . UPLOAD_DIRECTORY_FOLDER . '/' . $value ?>"
                                      alt="Gallery Images">
