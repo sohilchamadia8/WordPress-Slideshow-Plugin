@@ -123,6 +123,7 @@ jQuery(document).ready(function () {
             beforeSend: function () {
                 jQuery('.cstm_loader').show();
                 jQuery('input[name="btnsubmit"]').attr('disabled', 'disabled');
+                jQuery('.btnRemove').attr('disabled', 'disabled');
             },
             success: function (response) {
 
