@@ -194,6 +194,8 @@ function deleteConfirmation() {
     jQuery(document).find('.cstm_del_img').confirmation({
         onConfirm: function (event, element) {
             console.log(lastClickedImgBtn);
+            jQuery(element).siblings('.cstm_spin_loader').css('visibility', 'unset');
+            jQuery(element).siblings('img').css("opacity", "0.2");
             jQuery.ajax({
                 type: "post",
                 url: slideshow_ajax.ajax_url,
