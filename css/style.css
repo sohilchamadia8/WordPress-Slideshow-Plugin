@@ -87,6 +87,13 @@ body{
      left: 24px;
 }
 
+.cstm_spin_loader{
+    position: absolute;
+    visibility: hidden;
+    top: 64px;
+    left: 106px;
+    font-size: 28px;
+}
 
 @media only screen and (max-width: 1024px) {
 #gallery_image .col-md-3.col-sm-2 {
