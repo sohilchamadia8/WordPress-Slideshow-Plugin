@@ -60,7 +60,7 @@ if ($_POST['process'] == 'sort_images') {
     $isKeyUpdated = update_option('slide_show_images', json_encode($_POST['imgSortArr']));
 
     if ($isKeyUpdated) {
-        $output = array('msg' => 'Images Updated Successfully', 'status' => 'success');
+        $output = array('msg' => 'Images Reordered Successfully', 'status' => 'success');
     } else {
         $output = array('msg' => 'Something Went Wrong', 'status' => 'failed');
     }
