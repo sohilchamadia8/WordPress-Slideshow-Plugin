@@ -40,8 +40,8 @@
     </div>
 </div>
 <script>
-    $(function () {
-        $('#myCrousel').hVCarousel({
+    jQuery(function () {
+        jQuery('#myCrousel').hVCarousel({
             arrow: false,
             dots: true,
             autoplay: true,
