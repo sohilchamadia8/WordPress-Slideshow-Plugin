@@ -1,3 +1,6 @@
+<script src="<?= plugin_dir_url(__FILE__) . 'js/jquery-ui.min.js' ?>"></script>
+<script src="<?= plugin_dir_url(__FILE__) . 'js/jquery.ui.touch-punch.min.js' ?>"></script>
+
 <div class="container cstm_gallery_main">
     <h2>Image Gallery</h2>
     <div class="row cstm_short_cont">
