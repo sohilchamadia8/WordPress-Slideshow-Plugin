@@ -92,8 +92,6 @@ jQuery(document).ready(function () {
     };
 
 
-    jQuery("#gallery_image").sortable();
-
     jQuery("#frmslideshow").submit(function (e) {
         e.preventDefault();
         var totalFile = document.getElementById("file_name").files.length;
@@ -190,6 +188,8 @@ function sortImageOrder() {
 
         }
     });
+
+    jQuery("#gallery_image").disableSelection();
 
 }
 
