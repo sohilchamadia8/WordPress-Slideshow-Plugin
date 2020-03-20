@@ -124,6 +124,8 @@ jQuery(document).ready(function () {
                 jQuery('.cstm_loader').show();
                 jQuery('input[name="btnsubmit"]').attr('disabled', 'disabled');
                 jQuery('.btnRemove').attr('disabled', 'disabled');
+                jQuery('#file_name').attr('disabled', 'disabled');
+
             },
             success: function (response) {
 
@@ -146,6 +148,7 @@ jQuery(document).ready(function () {
                 jQuery('.cstm_loader').hide();
                 jQuery('input[name="btnsubmit"]').attr('disabled', false);
                 jQuery("#file_name").val('');
+                jQuery('#file_name').attr('disabled', false);
 
             }
         });
