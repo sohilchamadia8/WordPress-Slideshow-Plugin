@@ -26,7 +26,8 @@ function slideshow_enqueue_script($hook_suffix)
         wp_enqueue_script('bootstrap-confirmation-min', plugin_dir_url(__FILE__) . 'js/bootstrap-confirmation.min.js');
         wp_enqueue_script('sortable-gallery-images', plugin_dir_url(__FILE__) . 'js/jquery-ui.js');
         wp_enqueue_style('toastr-css', plugin_dir_url(__FILE__) . 'css/toastr.min.css');
-        wp_enqueue_script('toastr-css', plugin_dir_url(__FILE__) . 'js/toastr.min.js');
+        wp_enqueue_script('toastr-jss', plugin_dir_url(__FILE__) . 'js/toastr.min.js');
+        wp_enqueue_script('touch-punch-js', 'https://raw.github.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.min.js');
     }
 }
 
